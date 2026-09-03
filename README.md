@@ -85,6 +85,18 @@ kumasi-no2-air-quality/
 ## Study Area
 
 **Kumasi, Ghana**
+## Key Results
+
+- Study period: **2019–2025**
+- Valid NO₂ observations: **1,971**
+- Annual NO₂ trend: **Increasing**
+- Trend slope: **1.097980 × 10⁻⁶ mol/m²/year**
+- R²: **0.9345**
+- p-value: **0.000381**
+- Percentage change: **30.46%**
+- Highest NO₂ month: **January**
+- Lowest NO₂ month: **July**
+- NO₂ concentrations were higher during the **dry season** than the wet season.
 
 Coordinates: **6.69°N, 1.62°W**
 
