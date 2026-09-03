@@ -100,6 +100,10 @@ kumasi-no2-air-quality/
 
 Coordinates: **6.69°N, 1.62°W**
 
+## Conclusion
+
+This study examined the temporal trends and meteorological influences on NO₂ concentrations in Kumasi, Ghana, from 2019 to 2025. The results indicate an increasing long-term NO₂ trend, with concentrations generally higher during the dry season and lower during the wet season. January recorded the highest NO₂ concentrations, while July recorded the lowest. These findings highlight the importance of considering seasonal meteorological conditions when assessing urban air quality in Kumasi.
+
 ## Reproducibility
 
 The analysis was conducted using Python and Google Colab. The repository contains the analysis code, notebook, datasets, results, and visualizations used in the study.
