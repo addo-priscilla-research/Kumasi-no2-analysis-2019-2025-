@@ -1,31 +1,101 @@
-# Kumasi-no2-analysis-2019-2025-
-Temporal trends and meteorological controls of NO₂ concentrations in Kumasi, Ghana, 2019–2025.
-Methodology
+# Temporal Trends and Meteorological Controls of NO₂ Concentrations in Kumasi, Ghana (2019–2025)
 
-1. Data Preparation
+## Overview
 
-Satellite-derived NO₂ observations for Kumasi, Ghana, covering 2019–2025, were compiled and examined for data quality. Invalid and missing observations were identified and removed before analysis.
+This project investigates the temporal variability and long-term trends of nitrogen dioxide (NO₂) concentrations in Kumasi, Ghana, from 2019 to 2025. The analysis also examines the relationship between NO₂ concentrations and selected meteorological variables.
 
-2. Meteorological Data
+## Objectives
 
-Daily meteorological data were obtained from NASA POWER for Kumasi (6.69°N, 1.62°W). The variables considered were air temperature, relative humidity, rainfall, wind speed, and surface pressure.
+* Examine monthly, seasonal, and annual variations in NO₂ concentrations.
+* Determine the long-term trend in NO₂ concentrations from 2019–2025.
+* Compare NO₂ concentrations between wet and dry seasons.
+* Investigate relationships between NO₂ and meteorological variables.
+* Visualize the observed temporal patterns and statistical relationships.
 
-3. Data Processing
+## Data
 
-The NO₂ observations were matched with the corresponding meteorological conditions. Missing meteorological values were treated as unavailable and excluded where necessary.
+### NO₂ Data
 
-4. Temporal Analysis
+Satellite-derived NO₂ observations covering Kumasi, Ghana, for 2019–2025 were processed and quality-controlled. Invalid and missing observations were identified and removed before analysis.
 
-NO₂ concentrations were examined at monthly, seasonal, and annual timescales to identify patterns and long-term changes.
+### Meteorological Data
 
-5. Seasonal Classification
+Daily meteorological data were obtained from NASA POWER for Kumasi (6.69°N, 1.62°W).
 
-The analysis classified November–February as the dry season and March–October as the wet season.
+The variables analyzed were:
 
-6. Statistical Analysis
+* Air temperature
+* Relative humidity
+* Rainfall
+* Wind speed
+* Surface pressure
 
-Linear regression was used to evaluate the long-term NO₂ trend. Correlation analysis was used to examine relationships between NO₂ and meteorological variables.
+## Methodology
 
-7. Visualization
+1. **Data Preparation**
+   NO₂ observations were examined for quality, and invalid or missing observations were removed.
 
-Python was used to generate time-series plots, monthly and seasonal comparisons, and statistical visualizations of NO₂ variability.
+2. **Meteorological Data Processing**
+   Daily meteorological variables were obtained and processed for the study location.
+
+3. **Data Integration**
+   NO₂ observations were matched with corresponding meteorological conditions.
+
+4. **Temporal Analysis**
+   NO₂ concentrations were analyzed at monthly, seasonal, and annual timescales.
+
+5. **Seasonal Classification**
+   November–February was classified as the dry season, while March–October was classified as the wet season.
+
+6. **Statistical Analysis**
+   Linear regression was used to evaluate the long-term NO₂ trend, while correlation analysis was used to examine relationships between NO₂ and meteorological variables.
+
+7. **Visualization**
+   Python was used to generate time-series plots, statistical visualizations, and other figures.
+
+## Tools and Technologies
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Statistical analysis
+* Remote sensing data
+* NASA POWER meteorological data
+
+## Project Structure
+
+```text
+kumasi-no2-air-quality/
+│
+├── README.md
+├── CSV datasets
+├── Python scripts (.py)
+├── Google Colab notebooks (.ipynb)
+├── Excel results (.xlsx)
+└── Figures and visualizations (.png)
+```
+
+## Study Period
+
+**2019–2025**
+
+## Study Area
+
+**Kumasi, Ghana**
+
+Coordinates: **6.69°N, 1.62°W**
+
+## Reproducibility
+
+The analysis was conducted using Python and Google Colab. The repository contains the analysis code, notebook, datasets, results, and visualizations used in the study.
+
+## Author
+
+**Priscilla Addo**
+
+Meteorology and Climate Science / Environmental Research
+
+Kumasi, Ghana
